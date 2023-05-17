@@ -1,6 +1,6 @@
 # NLW Spacetime 🚀
 
-Este repositório é referente a semana Next Level Spacetime da Rocketseat. [https://www.rocketseat.com.br/nlw?referralId=victoria-20516].
+Este repositório é referente a semana Next Level Spacetime da Rocketseat.<br> [https://www.rocketseat.com.br/nlw?referralId=victoria-20516].
 
 # Conteúdos
 
@@ -32,8 +32,8 @@ Em andamento...
 # Autora
 
 - Name - Victória Nogueira
-- Frontend Mentor - [https://www.frontendmentor.io/profile/victoriamnx]
 - GitHub - [https://github.com/victoriamnx]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/victoriamnx]
 
 # Agradecimentos
 
