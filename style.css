@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -60,21 +64,21 @@ nav {
 .memory small {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #bebebf;
 }
 
 .memory h1 {
   font-weight: 700;
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   color: #eaeaea;
 }
 
 .memory p {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 28px;
   color: #bebebf;
 }
@@ -115,6 +119,10 @@ aside {
   background-size: auto 100%;
 }
 
+aside * {
+  animation: entering 1.5s ease-in-out;
+}
+
 aside img:nth-child(2) {
   width: 160px;
   height: 160px;
@@ -126,12 +134,31 @@ aside img:nth-child(2) {
 
 aside p {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
 }
 
 aside span {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 0.75em;
   color: #bebebf;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr;
+    grid-template-areas: "profile" "timeline";
+  }
+  aside {
+    border-right: none;
+    padding: 32px 12px;
+  }
+  nav {
+    overflow-y: visible;
+    padding: 22px;
+  }
 }
